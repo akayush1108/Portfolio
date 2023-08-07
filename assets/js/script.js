@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Ayush Anand";
-            $("#favicon").attr("href", "assets/images/hero2.png");
+            $("#favicon").attr("href", "assets/images/logo.png");
         }
         else {
             document.title = "Portfolio | Ayush Anand";
-            $("#favicon").attr("href", "assets/images/hero2.png");
+            $("#favicon").attr("href", "assets/images/logo.png");
         }
     });
 
