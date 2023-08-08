@@ -127,7 +127,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #0ef;
   display: none;
 }
 @media (max-width: 768px) {
@@ -142,7 +142,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #000016e6;
   }
   header .navbar ul {
     flex-flow: column;
@@ -167,7 +167,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid #0ef;
   }
   .fa-times {
     transform: rotate(180deg);
