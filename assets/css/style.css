@@ -791,9 +791,8 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* work section ends */
 
-/* experience section starts */
+/* experience section */
 .experience{
   min-height: 55vh;
   margin-top: 5vh;
@@ -974,10 +973,8 @@ header .navbar ul li a:hover {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
 
-/* contact section starts */
+/* contact section */
 .contact {
   background: #1f242d;
   min-height: 60vh;
@@ -1119,7 +1116,7 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
-/* contact section media queries starts */
+/* contact section media queries */
 @media (max-width: 900px) {
   .contact {
     min-height: 70vh;
@@ -1138,14 +1135,12 @@ form .button-area {
     margin-right: 2rem;
   }
 }
-/* contact section media queries ends */
-/* contact section ends */
 
-/* footer section starts */
+/* footer section */
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: #00012b;
+  background: #05050c;
 }
 .footer .box-container {
   display: flex;
@@ -1244,9 +1239,8 @@ form .button-area {
     padding: 1.2rem;
   }
 }
-/* footer section ends */
 
-/* common media queries starts*/
+/* common media queries */
 @media (max-width: 450px) {
   html {
     font-size: 55%;
@@ -1258,9 +1252,9 @@ form .button-area {
     padding: 2rem;
   }
 }
-/* common media queries ends*/
+/* common media queries */
 
-/* scroll top starts */
+/* scroll top */
 #scroll-top {
   position: fixed;
   top: -140%;
@@ -1276,4 +1270,3 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
